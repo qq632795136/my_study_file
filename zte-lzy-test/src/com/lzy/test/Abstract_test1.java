@@ -6,6 +6,9 @@ package com.lzy.test;
 创建子类并使用
 **/
 public abstract class Abstract_test1 {
+    public Abstract_test1(){
+        System.out.println("抽象父类构造方法执行");
+    }
     public abstract void method1();
-    public void method2(){};
+    public void method2(){};   //普通方法
 }
